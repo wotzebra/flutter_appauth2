@@ -45,5 +45,8 @@ enum ExternalUserAgent {
   /// Note that as this does not follow the best practices on using the
   /// appropriate native APIs based on the OS version, developers should use
   /// this at their own discretion.
-  sfSafariViewController
+  sfSafariViewController,
+
+  /// Uses the external default browser.
+  customBrowserSafari
 }
