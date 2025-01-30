@@ -12,7 +12,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_appauth_platform_interface: ^8.0.0
+  flutter_appauth_platform_interface: #^8.0.0
+    path: ../flutter_appauth_platform_interface
 
 flutter:
   plugin:
